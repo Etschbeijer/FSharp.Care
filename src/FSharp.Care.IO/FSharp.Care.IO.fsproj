@@ -10,7 +10,7 @@
     <RootNamespace>FSharp.Care.IO</RootNamespace>
     <AssemblyName>FSharp.Care.IO</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
+    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Name>FSharp.Care.IO</Name>
     <TargetFrameworkProfile />
@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Web/WebServer.fs" />
+    <Compile Include="Web/Http.fs" />
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="FileIO.fs" />
     <Compile Include="PathFileName.fs" />
